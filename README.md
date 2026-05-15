@@ -1,4 +1,5 @@
 # NYC-Airbnb-Exploratory-Data-Analysis
+
 EDA project examining Airbnb pricing, room types, availability, and geographic patterns in 2019 New York City Airbnb listings using Python.
 
 ## Project Overview
@@ -22,7 +23,7 @@ The main goals of this project were to:
 
 Dataset used: 
 
-** New York City Airbnb Open Data (2019) **
+**New York City Airbnb Open Data (2019)**
 
 Source:
 
@@ -75,23 +76,46 @@ Insights identified during analysis include:
 
 ## Visualizations
 ### Geographic Distribution of Airbnb Listings
+![NYC Map](visualizations/nyc_Map.png)
 
-  
+### Price Distribution Across Listings
+![Price Distribution](visualizations/price_distribution.png)
+
+### Price Range by Neighborhood Group
+![Neighborhood Prices](visualizations/neighborhood_price_ranges.png)
+
+### Number of Listings by Room Type
+![Room Types](visualizations/listings_by_room_type.png)
+
+### Room Type Availability Analysis
+![Room Availability](visualizations/room_type_availability.png)
+
+## Interactive Map
+
+An interactive Folium map was also created for the geographic Airbnb listing analysis.
+
+[View/download the interactive NYC Airbnb map](interactive_maps/nyc_airbnb_map.html)
+
 ## Repository Structure
-
+```text
 NYC-Airbnb-Exploratory-Data-Analysis/
 
-├── Padilla_Aidee_Project.ipynb  
-├── Padilla_Aidee_Report.docx  
 ├── README.md  
+├── .gitignore  
+│
+├── nyc_airbnb_eda.ipynb  
+├── airbnb_nyc_eda_report.pdf  
+│
 ├── data/  
 │      └── AB_NYC_2019.csv  
-├── images/  
-│      ├── nyc_map.png  
-│      ├── price_histogram.png  
-│      ├── neighborhood_prices.png  
-│      └── room_type_analysis.png  
-
+│
+└── visualizations/  
+       ├── nyc_map.png  
+       ├── price_distribution.png  
+       ├── neighborhood_price_ranges.png  
+       ├── listings_by_room_type.png  
+       └── room_type_availability.png
+```
 
 ## Future Improvements
 Potential future work includes:
@@ -104,4 +128,7 @@ Potential future work includes:
 ## Author
 
 **Aidee Padilla**
-Information Systems | Data Analytics | Python
+
+Information Systems • Finance • Supply Chain Management
+
+Python • Data Analytics
