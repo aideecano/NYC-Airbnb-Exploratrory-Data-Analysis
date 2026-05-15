@@ -97,23 +97,23 @@ An interactive Folium map was also created for the geographic Airbnb listing ana
 [View/download the interactive NYC Airbnb map](nyc_airbnb_map.html)
 
 ## Repository Structure
+
 ```text
 NYC-Airbnb-Exploratory-Data-Analysis/
 
-├── README.md  
-├── .gitignore  
+├── README.md
+├── .gitignore
 │
-├── nyc_airbnb_eda.ipynb  
-├── airbnb_nyc_eda_report.pdf  
+├── AB_NYC_2019.csv
+├── nyc_airbnb_eda.ipynb
+├── airbnb_nyc_eda_report.pdf
+├── nyc_airbnb_map.html
 │
-├── data/  
-│      └── AB_NYC_2019.csv  
-│
-└── visualizations/  
-       ├── nyc_map.png  
-       ├── price_distribution.png  
-       ├── neighborhood_price_ranges.png  
-       ├── listings_by_room_type.png  
+└── visualizations/
+       ├── nyc_map.png
+       ├── price_distribution.png
+       ├── neighborhood_price_ranges.png
+       ├── listings_by_room_type.png
        └── room_type_availability.png
 ```
 
