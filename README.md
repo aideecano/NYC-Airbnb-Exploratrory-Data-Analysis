@@ -94,7 +94,7 @@ Insights identified during analysis include:
 
 An interactive Folium map was also created for the geographic Airbnb listing analysis.
 
-[View/download the interactive NYC Airbnb map](interactive_maps/nyc_airbnb_map.html)
+[View/download the interactive NYC Airbnb map](nyc_airbnb_map.html)
 
 ## Repository Structure
 ```text
